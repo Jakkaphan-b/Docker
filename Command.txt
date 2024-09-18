@@ -1,0 +1,18 @@
+docker ps //ดู contanner ที่ run
+docker ps -a แสดงทุก contanner
+docker run busybox ping google.com 
+docker system prune ลบหมดทุกอย่าง
+docker run nginx 
+docker exec c6d08be68e9e เข้า contanner
+docker exec -it c6d08be68e9e sh
+docker exec -it c6d08be68e9e bash  
+cat index.html
+docker run -d -p 9000:80 nginx
+docker run --name ชื่อ -d -p port:80 nginx เปลี่ยนชื่อ
+docker rm ชื่อ/id 
+docker logs -f id 
+docker system info
+ docker system df 
+ docker images
+ docker image inspect nginx
+ docker image rm id 
